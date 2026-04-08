@@ -9,9 +9,9 @@ export default function Navbar() {
 
       <div className="flex gap-6">
         <span onClick={() => navigate("/home")} className="cursor-pointer">Home</span>
-        <span>TV Shows</span>
-        <span>Movies</span>
-        <span>Video Games</span>
+        <span className="cursor-pointer">TV Shows</span>
+        <span className="cursor-pointer">Movies</span>
+        <span className="cursor-pointer">Video Games</span>
         <span onClick={() => navigate("/search")} className="cursor-pointer">Search</span>
       </div>
     </div>
