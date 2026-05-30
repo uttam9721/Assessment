@@ -19,6 +19,7 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-6">
                     <span className="cursor-pointer">Testing</span>
+                    {/* <span className="cursor-pointer">Testing</span> */}
           <span onClick={() => navigate("/home")} className="cursor-pointer hover:text-gray-300">Home</span>
           <span className="cursor-pointer hover:text-gray-300">TV Shows</span>
           <span className="cursor-pointer hover:text-gray-300">Movies</span>
